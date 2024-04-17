@@ -9,13 +9,13 @@ const element = null;
 
 function App(){
     const totalItems = shirts + pants;
-    return (
-        <main>
-        <p className="paragraph">
-        Purchased {shirts} shirts and {pants} pants for a total of {totalItems} items 
-        </p>
-        <a href={website}></a>
-        </main>
+        return (
+            <main>
+            <p className="paragraph">
+            Purchased {shirts} shirts and {pants} pants for a total of {totalItems} items 
+            </p>
+            <a href={website}>Website</a>
+            </main>
     )
 }
 
